@@ -38,7 +38,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"jumbotron\">\n  <h1 class=\"display-4\">Ashish Patel</h1>\n  <p class=\"lead\">\n    <a class=\"btn btn-primary btn-lg\" href=\"#\" role=\"button\" href=\"https://www.linkedin.com/in/zoom2ashish/\" target=\"_blank\">LinkedIn</a>\n  </p>\n</div>"
+module.exports = "<div class=\"jumbotron\">\n  <h1 class=\"display-4\">Ashish Patel</h1>\n  <p class=\"lead\">\n    <a class=\"btn btn-primary btn-lg\" href=\"#\" role=\"button\" href=\"https://www.linkedin.com/in/zoom2ashish/\" target=\"_blank\">LinkedIn</a>\n  </p>\n</div>\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-sm-6 col-md-4 col-xl-3\">\n      <div class=\"card\" style=\"width: 18rem;\">\n        <div class=\"card-body\">\n          <h5 class=\"card-title\">Angular + Firebase</h5>\n          <h6 class=\"card-subtitle mb-2 text-muted\">Google Signin with firebase</h6>\n          <p class=\"card-text\">Experiment to support Social Signin using Google Firebase in Angular App.</p>\n          <p class=\"card-text\"><small class=\"text-muted\">Angular 5, Google Firebase</small></p>\n          <a href=\"https://zoom2ashish.github.io/ng5-firebase/\" target=\"_blank\" class=\"card-link\">Demo</a>\n          <a href=\"https://github.com/zoom2ashish/ng5-firebase\" target=\"_blank\" class=\"card-link\">Source Code</a>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
