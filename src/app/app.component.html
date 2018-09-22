@@ -6,15 +6,17 @@
 </div>
 <div class="container">
   <div class="row">
-    <div class="col-sm-6 col-md-4 col-xl-3">
-      <div class="card" style="width: 18rem;">
+    <div class="col-sm-6 col-md-4 col-xl-3 d-flex" *ngFor="let card of cards">
+      <div class="card flex-fill" style="width: 18rem;">
         <div class="card-body">
-          <h5 class="card-title">Angular + Firebase</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Google Signin with firebase</h6>
-          <p class="card-text">Experiment to support Social Signin using Google Firebase in Angular App.</p>
-          <p class="card-text"><small class="text-muted">Angular 5, Google Firebase</small></p>
-          <a href="https://zoom2ashish.github.io/ng5-firebase/" target="_blank" class="card-link">Demo</a>
-          <a href="https://github.com/zoom2ashish/ng5-firebase" target="_blank" class="card-link">Source Code</a>
+          <h5 class="card-title">{{ card.title }}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{ card.subtitle }}</h6>
+          <p class="card-text">{{ card.description }}</p>
+          <p class="card-text"><small class="text-muted">{{ card.tehnologies }}</small></p>
+        </div>
+        <div class="card-footer">
+          <a href="{{ card.demoUrl }}" target="_blank" class="card-link">Demo</a>
+          <a href="{{ card.githubRepoUrl }}" target="_blank" class="card-link">Source Code</a>
         </div>
       </div>
     </div>
