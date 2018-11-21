@@ -33,6 +33,14 @@ export class AppComponent {
       tehnologies: 'Angular 5, Reactive Forms, ControlValueAccessor',
       demoUrl: 'https://zoom2ashish.github.io/ngx-ports-input-control/',
       githubRepoUrl: 'https://github.com/zoom2ashish/ngx-ports-input-control'
+    },
+    {
+      title: 'Sample Tree View using Angular7 + D3',
+      subtitle: 'Uses D3js and Angular 7',
+      description: 'Demonstrates collapsible tree view using D3js',
+      tehnologies: 'Angular 7, D3',
+      demoUrl: 'https://zoom2ashish.github.io/ng-d3-hierarchy/',
+      githubRepoUrl: 'https://github.com/zoom2ashish/ng-d3-hierarchy'
     }
   ];
 }
