@@ -41,6 +41,13 @@ export class AppComponent {
       tehnologies: 'Angular 7, D3',
       demoUrl: 'https://zoom2ashish.github.io/ng-d3-hierarchy/',
       githubRepoUrl: 'https://github.com/zoom2ashish/ng-d3-hierarchy'
+    },
+    {
+      title: 'vChat Client+Server',
+      subtitle: 'vChat client server application',
+      description: 'Demonstrattes websockets, nodejs, express, angular 7',
+      tehnologies: 'NodeJS, Express, WebSockets, Angular 7, socket.io',
+      githubRepoUrl: 'https://github.com/zoom2ashish/v-chat-app'
     }
   ];
 }
