@@ -48,6 +48,45 @@ export class AppComponent {
       description: 'Demonstrattes websockets, nodejs, express, angular 7',
       tehnologies: 'NodeJS, Express, WebSockets, Angular 7, socket.io',
       githubRepoUrl: 'https://github.com/zoom2ashish/v-chat-app'
+    },
+    {
+      title: 'Angular D3 Charts',
+      subtitle: 'Examples of D3 Charts',
+      description: 'Demonstrates the use of Angular Components+Templates and D3.js layout libraries to create manageable visualization.',
+      tehnologies: 'Angular 9, D3.js',
+      demoUrl: 'https://angular-d3-charts-examples.stackblitz.io',
+      githubRepoUrl: 'https://stackblitz.com/edit/angular-d3-charts-examples'
+    },
+    {
+      title: 'Read Text from Image using Tesserect',
+      subtitle: '',
+      description: 'Experiment with Tesserect.js to extract text from image',
+      tehnologies: 'Tesserect.js, Angular',
+      demoUrl: 'https://angular-tesserect-example.stackblitz.io',
+      githubRepoUrl: 'https://stackblitz.com/edit/angular-tesserect-example'
+    },
+    {
+      title: 'Using Angular Directive as DataProvider',
+      subtitle: '',
+      description: 'Demonstrates yet another use of Angular Directives to enhance component behaviors',
+      tehnologies: 'Angular 8',
+      demoUrl: 'https://angular-directive-as-dataprovider.stackblitz.io',
+      githubRepoUrl: 'https://stackblitz.com/edit/angular-directive-as-dataprovider'
+    },
+    {
+      title: 'Boilerplate for Express.js + TS.ed',
+      subtitle: '',
+      description: 'Provides boilerplate code to start Node.js based web-server using Typescript + Express.js + TS.ed',
+      tehnologies: 'Node.js, Typescript, Express.js, TS.ed',
+      githubRepoUrl: 'https://github.com/zoom2ashish/typescript-express-tsed-starter'
+    },
+    {
+      title: 'Loading Configuration on Angular App Initialization',
+      subtitle: '',
+      description: 'Demonstrate how to use load configuration on Angular app boostrap using APP_INITIALIZER',
+      tehnologies: 'Anuglar 8',
+      demoUrl: 'https://angular-load-config-on-init.stackblitz.io',
+      githubRepoUrl: 'https://stackblitz.com/edit/angular-load-config-on-init'
     }
   ];
 }
