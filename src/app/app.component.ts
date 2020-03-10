@@ -19,6 +19,14 @@ export class AppComponent {
 
   public cards: Card[] = [
     {
+      title: 'My Burger Builder',
+      subtitle: 'Burger build app developed with Reactjs',
+      description: 'React Learning project. Demonstrates React, Redux, Routing, Forms, Axios integration',
+      tehnologies: 'React 16.x, Redux, Routing, Webpack, Google Firebase',
+      demoUrl: 'https://zoom2ashish.github.io/my-burger-builder/',
+      githubRepoUrl: 'https://github.com/zoom2ashish/my-burger-builder'
+    },
+    {
       title: 'Angular + Firebase',
       subtitle: 'Google Signin with firebase',
       description: 'Experiment to support Social Signin using Google Firebase in Angular App.',
