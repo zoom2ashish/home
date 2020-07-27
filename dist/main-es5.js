@@ -156,6 +156,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
       this.title = 'app';
       this.cards = [{
+        title: 'My Burger Builder',
+        subtitle: 'Burger build app developed with Reactjs',
+        description: 'React Learning project. Demonstrates React, Redux, Routing, Forms, Axios integration',
+        tehnologies: 'React 16.x, Redux, Routing, Webpack, Google Firebase',
+        demoUrl: 'https://zoom2ashish.github.io/my-burger-builder/',
+        githubRepoUrl: 'https://github.com/zoom2ashish/my-burger-builder'
+      }, {
         title: 'Angular + Firebase',
         subtitle: 'Google Signin with firebase',
         description: 'Experiment to support Social Signin using Google Firebase in Angular App.',
@@ -187,8 +194,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         subtitle: 'Examples of D3 Charts',
         description: 'Demonstrates the use of Angular Components+Templates and D3.js layout libraries to create manageable visualization.',
         tehnologies: 'Angular 9, D3.js',
-        demoUrl: 'https://angular-d3-charts-examples.stackblitz.io',
-        githubRepoUrl: 'https://stackblitz.com/edit/angular-d3-charts-examples'
+        demoUrl: 'https://zoom2ashish.github.io/angular-d3-experiments/',
+        githubRepoUrl: 'https://github.com/zoom2ashish/angular-d3-experiments'
       }, {
         title: 'Read Text from Image using Tesserect',
         subtitle: '',
