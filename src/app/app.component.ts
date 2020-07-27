@@ -62,8 +62,8 @@ export class AppComponent {
       subtitle: 'Examples of D3 Charts',
       description: 'Demonstrates the use of Angular Components+Templates and D3.js layout libraries to create manageable visualization.',
       tehnologies: 'Angular 9, D3.js',
-      demoUrl: 'https://angular-d3-charts-examples.stackblitz.io',
-      githubRepoUrl: 'https://stackblitz.com/edit/angular-d3-charts-examples'
+      demoUrl: 'https://zoom2ashish.github.io/angular-d3-experiments/',
+      githubRepoUrl: 'https://github.com/zoom2ashish/angular-d3-experiments'
     },
     {
       title: 'Read Text from Image using Tesserect',
