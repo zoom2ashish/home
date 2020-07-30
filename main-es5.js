@@ -63,6 +63,38 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/common */
     "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 
+    function AppComponent_div_11_a_13_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "a", 17);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Demo");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var card_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("href", card_r1.demoUrl, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+      }
+    }
+
+    function AppComponent_div_11_a_14_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "a", 17);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Source Code");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var card_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("href", card_r1.githubRepoUrl, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+      }
+    }
+
     function AppComponent_div_11_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 8);
@@ -103,17 +135,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 15);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "a", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, AppComponent_div_11_a_13_Template, 2, 1, "a", 16);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Demo");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "a", 16);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Source Code");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, AppComponent_div_11_a_14_Template, 2, 1, "a", 16);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -143,11 +167,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("href", card_r1.demoUrl, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", card_r1 == null ? null : card_r1.demoUrl);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("href", card_r1.githubRepoUrl, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", card_r1 == null ? null : card_r1.githubRepoUrl);
       }
     }
 
@@ -223,6 +247,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         tehnologies: 'Anuglar 8',
         demoUrl: 'https://angular-load-config-on-init.stackblitz.io',
         githubRepoUrl: 'https://stackblitz.com/edit/angular-load-config-on-init'
+      }, {
+        title: 'Chrome Reponse Mocker',
+        subtitle: '',
+        description: 'Intercept and mock responses  using Chome DevTools Protocol',
+        tehnologies: 'Javascript, Chrome DevTools Protocol, ExpressJs',
+        githubRepoUrl: 'https://github.com/zoom2ashish/chrome-response-mocker'
       }];
     };
 
@@ -235,7 +265,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-root"]],
       decls: 12,
       vars: 1,
-      consts: [[1, "jumbotron"], [1, "row"], [1, "display-4", "col-sm-6"], [1, "lead", "col-sm-6", "d-flex", "justify-content-end"], ["role", "button", "href", "https://www.linkedin.com/in/zoom2ashish/", "target", "_blank", 1, "btn", "btn-primary", "btn-lg"], ["role", "button", "href", "https://github.com/zoom2ashish", "target", "_blank", 1, "btn", "btn-primary", "btn-lg"], [1, "container"], ["class", "col-sm-6 col-md-4 col-xl-3 d-flex", 4, "ngFor", "ngForOf"], [1, "col-sm-6", "col-md-4", "col-xl-3", "d-flex"], [1, "card", "flex-fill", "mb-4", 2, "width", "18rem"], [1, "card-body"], [1, "card-title"], [1, "card-subtitle", "mb-2", "text-muted"], [1, "card-text"], [1, "text-muted"], [1, "card-footer"], ["target", "_blank", 1, "card-link", 3, "href"]],
+      consts: [[1, "jumbotron"], [1, "row"], [1, "display-4", "col-sm-6"], [1, "lead", "col-sm-6", "d-flex", "justify-content-end"], ["role", "button", "href", "https://www.linkedin.com/in/zoom2ashish/", "target", "_blank", 1, "btn", "btn-primary", "btn-lg"], ["role", "button", "href", "https://github.com/zoom2ashish", "target", "_blank", 1, "btn", "btn-primary", "btn-lg"], [1, "container"], ["class", "col-sm-6 col-md-4 col-xl-3 d-flex", 4, "ngFor", "ngForOf"], [1, "col-sm-6", "col-md-4", "col-xl-3", "d-flex"], [1, "card", "flex-fill", "mb-4", 2, "width", "18rem"], [1, "card-body"], [1, "card-title"], [1, "card-subtitle", "mb-2", "text-muted"], [1, "card-text"], [1, "text-muted"], [1, "card-footer"], ["target", "_blank", "class", "card-link", 3, "href", 4, "ngIf"], ["target", "_blank", 1, "card-link", 3, "href"]],
       template: function AppComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -272,7 +302,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, AppComponent_div_11_Template, 17, 6, "div", 7);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, AppComponent_div_11_Template, 15, 6, "div", 7);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -285,7 +315,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.cards);
         }
       },
-      directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"]],
+      directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"]],
       styles: [".btn[_ngcontent-%COMP%] {\n  margin: 12px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxZQUFZO0FBQ2QiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5idG4ge1xuICBtYXJnaW46IDEycHg7XG59Il19 */"]
     });
     /*@__PURE__*/
