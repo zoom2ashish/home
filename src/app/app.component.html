@@ -19,8 +19,8 @@
           <p class="card-text"><small class="text-muted">{{ card.tehnologies }}</small></p>
         </div>
         <div class="card-footer">
-          <a href="{{ card.demoUrl }}" target="_blank" class="card-link">Demo</a>
-          <a href="{{ card.githubRepoUrl }}" target="_blank" class="card-link">Source Code</a>
+          <a *ngIf="card?.demoUrl" href="{{ card.demoUrl }}" target="_blank" class="card-link">Demo</a>
+          <a *ngIf="card?.githubRepoUrl" href="{{ card.githubRepoUrl }}" target="_blank" class="card-link">Source Code</a>
         </div>
       </div>
     </div>

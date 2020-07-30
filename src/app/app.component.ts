@@ -95,6 +95,13 @@ export class AppComponent {
       tehnologies: 'Anuglar 8',
       demoUrl: 'https://angular-load-config-on-init.stackblitz.io',
       githubRepoUrl: 'https://stackblitz.com/edit/angular-load-config-on-init'
-    }
+    },
+    {
+      title: 'Chrome Reponse Mocker',
+      subtitle: '',
+      description: 'Intercept and mock responses  using Chome DevTools Protocol',
+      tehnologies: 'Javascript, Chrome DevTools Protocol, ExpressJs',
+      githubRepoUrl: 'https://github.com/zoom2ashish/chrome-response-mocker'
+    },
   ];
 }
